@@ -22,4 +22,7 @@ describe("fibonacci sequencer", function(){
   it("calculates 10 index", function() {
     expect(fib(10)).toBe(55);
   });
+  it("calculates 99 index", function() { //testing performance
+    expect(fib(99)).toBe(218922995834555169026);
+  });
 });
