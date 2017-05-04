@@ -3,8 +3,19 @@
 const express = require('express');
 const app     = express();
 const PORT    = 3000;
+const fib     = require('./fib');
 
 // implement your fib function and route here!
+
+/*
+returns:
+{
+  nth: index of the number in the sequence (start w 0 ig),
+  value: self-explanatory,
+  timestamp: Date.now(),
+  elapsed: process.hrtime()
+}
+*/
 
 app.listen(PORT);
 
