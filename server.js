@@ -11,7 +11,7 @@ const fib     = require('./fib');
 returns:
 {
   nth: index of the number in the sequence (start w 0 ig),
-  value: self-explanatory,
+  value: fib.fib(n),
   timestamp: Date.now(),
   elapsed: process.hrtime()
 }
