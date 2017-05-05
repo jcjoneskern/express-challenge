@@ -42,7 +42,7 @@ The spec is as follows:
 
 
 ### Solution Discussion:
-- Both loops and recursion seemed like they could have performance issues, so I went with a formula instead. I did briefly attempt an iterative solution, but the results became less accurate sooner.
+- Both loops and recursion seemed like they could have performance issues, so I went with a formula instead. I did briefly attempt an [iterative solution](https://github.com/jcjoneskern/express-challenge/blob/2d96ff451bceadbdacab5d9d1b613f468494afdc/fib.js), but the results became less accurate sooner.
 
 - How to run the unit tests:
   1. Clone the repository
