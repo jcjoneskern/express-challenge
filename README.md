@@ -42,4 +42,10 @@ The spec is as follows:
 
 
 ### Solution Discussion:
-- Your solution explanation goes here.
+- Both loops and recursion seemed like they could have performance issues, so I went with a formula instead. I did briefly attempt an iterative solution, but the results became less accurate sooner.
+
+- How to run the unit tests:
+  1. Clone the repository
+  2. Run `npm install` in the directory
+  3. Run `jasmine`
+- The last two tests fail because of rounding errors/limitations of JavaScript, but Jasmine's completion time does indicate that there are no performance issues at least.

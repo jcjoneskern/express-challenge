@@ -13,7 +13,7 @@ app.get('/fibonacci/:n', (req, res) => {
   const start = process.hrtime();
   const end = process.hrtime(start);
 
-  res.send(
+  res.json(
     {
       nth: req.params.n,
       value: fib(req.params.n),
@@ -21,7 +21,7 @@ app.get('/fibonacci/:n', (req, res) => {
       elapsed: end[1]/1000000 + 'ms'
     }
   );
-  
+
 });
 
 app.listen(PORT);
