@@ -25,6 +25,9 @@ describe("fibonacci sequencer", function(){
   it("calculates 49 index", function() {
     expect(fib(49)).toBe(7778742049);
   });
+  it("calculates 78 index", function() { //largest number in sequence javascript can hold
+    expect(fib(78)).toBe(8944394323791464);
+  });
   it("calculates 99 index", function() { //testing performance
     expect(fib(99)).toBe(218922995834555169026);
   });
